@@ -8,6 +8,10 @@ public class NetBankingApp {
 
     public NetBankingApp(String appName, int securityRating, int userFriendliness, int numOfFeatures) {
       // your code goes here
+        this.appName = appName;
+        this.securityRating = securityRating;
+        this.userFriendliness = userFriendliness;
+        this.numOfFeatures = numOfFeatures;
     }
 
     public String getAppName() {
